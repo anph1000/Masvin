@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadMasvinFromCSV {
     public static void main(String [] args) {
-        String fileName = "Marsvin.rtf";
+        String fileName = "Marsvin.txt";
 
         int count = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
